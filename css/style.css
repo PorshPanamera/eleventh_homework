@@ -1,0 +1,439 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "GraphikLCG-Semibold";
+  src: url(../Fonts/GraphikLCG-Semibold.woff) format("woff"),
+    url(../Fonts/GraphikLCG-Semibold.ttf) format("ttf"),
+    url(../Fonts/GraphikLCG-Semibold.woff2) format("woff2");
+}
+@font-face {
+  font-family: "GraphikLCG-Regular";
+  src: url(../Fonts/GraphikLCG-Regular.woff) format("woff"),
+    url(../Fonts/GraphikLCG-Regular.ttf) format("ttf"),
+    url(../Fonts/GraphikLCG-Regular.woff2) format("woff2");
+}
+html {
+  font-family: "GraphikLCG-Regular";
+}
+header {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 15%;
+  padding: 2%;
+  position: relative;
+}
+nav {
+  width: 60%;
+  font-size: 15px;
+  font-family: 400;
+}
+header a {
+  text-decoration: none;
+  color: #000000;
+  margin-left: 6%;
+}
+button {
+  padding: 10px 35px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.buttons {
+  position: absolute;
+  right: 4%;
+}
+.button1 {
+  background-color: white;
+  border-color: lightgrey;
+}
+.button2 {
+  background-color: orangered;
+  border: none;
+  color: white;
+}
+/* ///////////////////////////////////////////// */
+.description {
+  display: flex;
+  padding: 3%;
+}
+.description img {
+  width: 50%;
+}
+h1 {
+  font-family: "GraphikLCG-Semibold";
+  padding-bottom: 5%;
+  font-size: 65px;
+  font-weight: 600;
+}
+.text p {
+  padding-bottom: 10%;
+}
+#toppadding {
+  padding-top: 5%;
+}
+.button4 {
+  background-color: white;
+  border-color: lightgrey;
+  padding: 20px 35px;
+}
+.button3 {
+  background-color: orangered;
+  border: none;
+  color: white;
+  padding: 20px 35px;
+}
+/* //////////////////////////////////////////////// */
+.logos {
+  width: 100vw;
+  height: 455px;
+  background-color: #ff9c7d;
+}
+.logos h2 {
+  font-family: "GraphikLCG-Semibold";
+  display: flex;
+  justify-content: center;
+  padding: 8%;
+  font-size: 50px;
+  font-weight: 600;
+}
+.logosimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+/* ///////////////////////////////////////////////////// */
+.cards {
+  padding: 4%;
+}
+
+.card {
+  padding: 10% 0 10% 0;
+  display: flex;
+}
+.card img {
+  width: 50%;
+}
+.cardtext1 {
+  padding: 10% 5% 0 0;
+}
+.cardtext {
+  padding: 10% 0 0 10%;
+}
+.card h2 {
+  font-family: "GraphikLCG-Semibold";
+  font-size: 65px;
+  font-weight: 600;
+  margin-bottom: 10%;
+}
+.card p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10%;
+}
+.card button {
+  border-style: none;
+  background-color: white;
+  font-family: "GraphikLCG-Semibold";
+  font-size: 20px;
+  font-weight: 600;
+}
+/* /////////////////////////////////////////////////////////////// */
+.cardcontainer {
+  width: 100vw;
+  height: 100%;
+  background-color: #fff8e4;
+}
+.cardcontainer h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "GraphikLCG-Semibold";
+  padding: 10% 0 10% 0;
+  font-size: 65px;
+  font-weight: 600;
+}
+.cardbox {
+  display: flex;
+  justify-content: space-around;
+}
+.logocard {
+  height: 295px;
+  width: 300px;
+}
+.logocard img {
+  padding: 0 0 10% 25%;
+}
+.logocard h3 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10%;
+}
+.logocard p {
+  margin: 0 0 20% 10%;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.cardbox1 {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10%;
+}
+.logocard1 {
+  height: 295px;
+  width: 330px;
+}
+.logocard1 img {
+  padding: 10% 0 10% 25%;
+}
+.logocard1 h3 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10%;
+}
+.logocard1 p {
+  margin: 0 0 20% 10%;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+}
+/* //////////////////////////////////////////////////////// */
+.foryou {
+  width: 100vw;
+  height: 100%;
+  padding: 10% 5%;
+}
+
+.foryou h2 {
+  font-family: "GraphikLCG-Semibold";
+  font-size: 50px;
+  font-weight: 600;
+  padding-bottom: 10%;
+  display: flex;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  padding-left: 7%;
+  height: 80%;
+  width: 80%;
+  padding-left: 20%;
+}
+.box {
+  height: 500px;
+  width: 440px;
+  padding-right: 5%;
+}
+.box h3 {
+  font-family: "GraphikLCG-Semibold";
+  font-size: 30px;
+  font-weight: 600;
+  margin: 25% 0 20% 0;
+}
+.box p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20%;
+}
+/* /////////////////////////////////////////////// */
+.distance {
+  width: 100vw;
+  height: 40vh;
+}
+.textinformation {
+  padding: 5% 4% 0 5%;
+}
+.information {
+  width: 100vw;
+  height: 100%;
+  background-color: #c9e8f2;
+  display: flex;
+}
+.information p {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.informationimg {
+  height: 310px;
+  width: 310px;
+  margin: 4% 5% 8% 0;
+}
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 3% 0 2% 0;
+}
+/* //////////////////////////////////////////////////////////////// */
+.defination {
+  width: 100vw;
+  height: 100%;
+  background-color: #dabc98;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+}
+.img_text {
+  display: flex;
+  align-items: center;
+}
+.defination h2 {
+  font-family: "GraphikLCG-Semibold";
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 50px;
+  padding-left: 5%;
+}
+.grade {
+  display: flex;
+  padding-left: 20%;
+}
+.grade img {
+  padding-left: 10%;
+}
+/* ///////////////////////////////////////////////////// */
+.container_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10% 5%;
+}
+.container_block h2 {
+  font-family: "GraphikLCG-Semibold";
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 75px;
+  padding-bottom: 5%;
+}
+.container_block h2 {
+  font-family: "GraphikLCG-Semibold";
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 75px;
+  padding-bottom: 5%;
+}
+.container_block p {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 5%;
+}
+.container_block button {
+  background-color: orangered;
+  border: none;
+  color: white;
+  padding: 20px 25px;
+  margin-top: 5%;
+}
+/* //////////////////////////////////////////////////////////// */
+.container_block2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10% 5%;
+  background-color: #ff9c7d;
+}
+.container_block2 h2 {
+  font-family: "GraphikLCG-Semibold";
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 75px;
+  padding-bottom: 5%;
+}
+.container_block2 p {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 5%;
+}
+.container_block2 button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 20px 25px;
+  margin-top: 5%;
+}
+/* ///////////////////////////////////////////////////////// */
+footer {
+  width: 100vw;
+  height: 100%;
+  background-color: #eeeeee;
+  padding: 10% 5% 2% 5%;
+}
+.block {
+  display: flex;
+  justify-content: space-between;
+}
+.big_block {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  height: 590px;
+  width: 370px;
+}
+.big_block h2 {
+  font-family: "GraphikLCG-Semibold";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  margin-bottom: 10%;
+}
+.big_block img {
+  padding-bottom: 5%;
+}
+.big_block p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 5%;
+}
+.big_block a {
+  text-decoration: none;
+  color: black;
+  font-family: "GraphikLCG-Semibold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.small_block {
+  display: flex;
+  flex-direction: column;
+}
+.small_block h3 {
+  font-family: "GraphikLCG-Semibold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  margin-bottom: 15%;
+}
+.small_block a {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  text-decoration: none;
+  color: #000000;
+  margin-bottom: 15%;
+}
+/* //////////////////////////////////////////////////// */
+
+.footer_items {
+  display: flex;
+  padding-top: 2%;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_text_left {
+  display: flex;
+  align-items: center;
+}
+.footer_text_left p {
+  padding-left: 3%;
+}
